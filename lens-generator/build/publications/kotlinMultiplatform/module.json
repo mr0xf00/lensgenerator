@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mr0xf00",
+    "module": "lens-generator",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lens-generator-metadata-0.1.0.jar",
+          "url": "lens-generator-0.1.0.jar",
+          "size": 4789,
+          "sha512": "87fce098db7c5e6e19a099961ffc152e2e1900925e30582f39c473c25e3e365d65ea2466400ed28765f592264a43edda091fd66fc50978d95a26264359acbb58",
+          "sha256": "dbb8ce1cff295e46ecb7d58d3686c445916e878e1aff76066f708695ce35b849",
+          "sha1": "0b158502d8535427b569440d54c6698853180d9a",
+          "md5": "f35572bf6d619d434e631e210b316235"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lens-generator-js/0.1.0/lens-generator-js-0.1.0.module",
+        "group": "io.github.mr0xf00",
+        "module": "lens-generator-js",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lens-generator-js/0.1.0/lens-generator-js-0.1.0.module",
+        "group": "io.github.mr0xf00",
+        "module": "lens-generator-js",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lens-generator-jvm/0.1.0/lens-generator-jvm-0.1.0.module",
+        "group": "io.github.mr0xf00",
+        "module": "lens-generator-jvm",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lens-generator-jvm/0.1.0/lens-generator-jvm-0.1.0.module",
+        "group": "io.github.mr0xf00",
+        "module": "lens-generator-jvm",
+        "version": "0.1.0"
+      }
+    }
+  ]
+}

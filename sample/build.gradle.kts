@@ -2,7 +2,6 @@ plugins {
     kotlin("android")
     id("com.android.application")
     id("com.google.devtools.ksp")
-    `idea`
 }
 
 android {
