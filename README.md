@@ -1,6 +1,5 @@
 # Lens Generation for Kotlin
 
----
 <p align="center">
 <img src="https://img.shields.io/maven-central/v/io.github.mr0xf00/lens-generator">
 </p>
