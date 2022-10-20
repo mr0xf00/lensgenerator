@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="lens-generator-jvm">
+    <output-path>$PROJECT_DIR$/lens-generator/build/libs</output-path>
+    <root id="archive" name="lens-generator-jvm.jar">
+      <element id="module-output" name="LensGenerator.lens-generator.jvmMain" />
+    </root>
+  </artifact>
+</component>
